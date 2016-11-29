@@ -1,5 +1,5 @@
 # Touch-Events-Tracker
-<img src="https://bintray.com/assets/bintray-logo.png" width="60" height="40"><br>
+<img src="https://bintray.com/assets/bintray-logo.png" width="60" height="40"><br><br>
 Android SDK which tracks all types of touch events in application.
 Touch Events Tracker is an **Android SDK** which tracks touch actions in application.Following are touch actions which it can track:
   - Touch on any view
@@ -37,4 +37,37 @@ public class MainActivity extends AppCompatActivity{
         new EventDetector(getApplicationContext());
     }
 }
+```
+
+## Get all tracked events from SDK
+
+```sh
+public class MyApplication extends Application {
+
+    private EventDetector eventDetector;
+    List<Event> eventList = new ArrayList<>();
+    
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        eventDetector = new EventDetector(this);
+    }
+
+    public List<Event> getEventList() {
+        eventList.addAll(eventDetector.getmEventList());
+        return eventList;
+    }
+```
+
+### Exclude activity from getting tracked
+```sh
+public class MyApplication extends Application {
+    private EventDetector eventDetector;
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        ........
+        /**"do not track events on below activity"**/
+        eventDetector.excludeActivity("EventActivity");
+    }
 ```
