@@ -1,6 +1,6 @@
 # Touch-Events-Tracker
 <img src="https://bintray.com/assets/bintray-logo.png" width="60" height="40"><br><br>
-Android SDK which tracks all types of touch events in application.
+
 Touch Events Tracker is an **Android SDK** which tracks touch actions in application.Following are touch actions which it can track:
   - Touch on any view
   - Swipe/Fling
