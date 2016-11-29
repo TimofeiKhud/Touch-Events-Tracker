@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Touch-events-tracker by kk121</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Touch-events-tracker</h1>
+      <h2 class="project-tagline">Android SDK which tracks all types of touch events in application.</h2>
+      <a href="https://github.com/kk121/Touch-Events-Tracker" class="btn">View on GitHub</a>
+      <a href="https://github.com/kk121/Touch-Events-Tracker/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/kk121/Touch-Events-Tracker/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p>Touch Events Tracker is an <strong>Android SDK</strong> which tracks touch actions in application.Following are touch actions which it can track:</p>
+
+<ul>
+<li>Touch on any view</li>
+<li>Swipe/Fling</li>
+<li>Single Tap/Double Tap</li>
+<li>Scroll</li>
+</ul>
+
+<h2>
+<a id="gradle-integration" class="anchor" href="#gradle-integration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gradle Integration</h2>
+
+<div class="highlight highlight-source-shell"><pre>Add below line <span class="pl-k">in</span> dependency block of app<span class="pl-s"><span class="pl-pds">'</span>s gradle file:</span>
+<span class="pl-s"></span>
+<span class="pl-s">dependencies {</span>
+<span class="pl-s">    compile <span class="pl-pds">'</span></span>com.krishna.event_tracker:eventtrackersdk:1.0@aar<span class="pl-s"><span class="pl-pds">'</span></span>
+<span class="pl-s">}</span></pre></div>
+
+<h2>
+<a id="initialisation" class="anchor" href="#initialisation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initialisation</h2>
+
+<div class="highlight highlight-source-shell"><pre>Add below line <span class="pl-k">in</span> onCreate method of custom Application class
+
+public class MyApplication extends Application {
+    @Override
+    public void <span class="pl-en">onCreate</span>() {
+        <span class="pl-en">super.onCreate</span>();
+        new EventDetector(this)<span class="pl-k">;</span> //where this is Application context
+    }
+}</pre></div>
+
+<div class="highlight highlight-source-shell"><pre>Or <span class="pl-k">in</span> app<span class="pl-s"><span class="pl-pds">'</span>s startup activity**</span>
+<span class="pl-s"></span>
+<span class="pl-s">public class MainActivity extends AppCompatActivity{</span>
+<span class="pl-s">@Override</span>
+<span class="pl-s">    protected void onCreate(Bundle savedInstanceState) {</span>
+<span class="pl-s">        super.onCreate(savedInstanceState);</span>
+<span class="pl-s">        new EventDetector(getApplicationContext());</span>
+<span class="pl-s">    }</span>
+<span class="pl-s">}</span></pre></div>
+
+<h2>
+<a id="get-all-tracked-events-from-sdk" class="anchor" href="#get-all-tracked-events-from-sdk" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Get all tracked events from SDK</h2>
+
+<div class="highlight highlight-source-shell"><pre>public class MyApplication extends Application {
+
+    private EventDetector eventDetector<span class="pl-k">;</span>
+    List<span class="pl-k">&lt;</span>Event<span class="pl-k">&gt;</span> eventList = new <span class="pl-en">ArrayList&lt;&gt;</span>();
+
+    @Override
+    public void <span class="pl-en">onCreate</span>() {
+        <span class="pl-en">super.onCreate</span>();
+        eventDetector = new EventDetector(this)<span class="pl-k">;</span>
+    }
+
+    public List<span class="pl-k">&lt;</span>Event<span class="pl-k">&gt;</span> <span class="pl-en">getEventList</span>() {
+        <span class="pl-en">eventList.addAll(eventDetector.getmEventList</span>());
+        <span class="pl-k">return</span> eventList<span class="pl-k">;</span>
+    }</pre></div>
+
+<h3>
+<a id="exclude-activity-from-getting-tracked" class="anchor" href="#exclude-activity-from-getting-tracked" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exclude activity from getting tracked</h3>
+
+<div class="highlight highlight-source-shell"><pre>public class MyApplication extends Application {
+    private EventDetector eventDetector<span class="pl-k">;</span>
+    @Override
+    public void <span class="pl-en">onCreate</span>() {
+        <span class="pl-en">super.onCreate</span>();
+        ........
+        /<span class="pl-k">**</span><span class="pl-s"><span class="pl-pds">"</span>do not track events on below activity<span class="pl-pds">"</span></span><span class="pl-k">**</span>/
+        eventDetector.excludeActivity(<span class="pl-s"><span class="pl-pds">"</span>EventActivity<span class="pl-pds">"</span></span>)<span class="pl-k">;</span>
+    }</pre></div>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/kk121/Touch-Events-Tracker">Touch-events-tracker</a> is maintained by <a href="https://github.com/kk121">kk121</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
