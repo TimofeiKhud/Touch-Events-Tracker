@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_a628f66459c6147a23997bc115963bbd20e09563/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_30edce00fa178ffd939b5634b1431b0cf01ddf35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="750d2c7d879f247369ed61d43b08651e7f5fccdb">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ef65b6ac71fe81a2143dbed53a9b3afb6fbc5083/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_b96ea40fbdc13a2c5a0c154eafde9ca967f25545/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_0101cace331b2decf7cc7e1855d596e0dcf1bbce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ad72f74186ec34bc97e63ea9ff91154e994a7fff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_ae1e9c5c12e2100b939c296da184a40897d82d99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2527d03036aec64ca98c13cbe1d593dc02322262">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ed55add40c43c09f82a368c780536dc2ea9ec5df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ab29badf77182e0fcdfee70f1a1e10014e0c7f1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_396d64c278c10c66229085513564eeff16d2a6f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_cff810be7184688acd962074b4ac2f7996ed8a29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_bc01519408c5df1829cee57590bc15fdbeb9be44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_68a8e3ac14fa0372d0061096515366091089a07c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_52581478b813b1e2bdf554c6dd8c687fa2ec0f35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_411594143e841e5937c3277a681b36b3a7441402/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5c03adcb8618a693f516f08eb39de62c1c335015/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_f757905e7ece3d28994f3c963b2eafb99a98a294/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/krishna/Documents/EventTracker/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/krishna/Documents/EventTracker/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_74c366f327c1c941b8d4666f04e454ab618eeedc/classes.dex" />
+    </item>
+
+</items>
